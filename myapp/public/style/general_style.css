@@ -1,0 +1,308 @@
+/*GENERAL STYLES*/
+/*BODY*/
+body {
+	background-color: white;
+	background-image: url(../images/body.jpg);
+	background-size: auto;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Verdana, sans-serif;
+}
+
+/*HEADER*/
+.header {
+	display: block;
+	width: 1080px;
+	height: 75px;
+	margin: 0 auto;
+}
+.header div {
+	display: inline-block;
+	float: left;
+	height: 75px;
+	text-align: center;
+}
+.header h1 {
+	font-size: 23px;
+	font-family: Verdana;
+	color: black;
+	text-shadow: 1px 1px 3px white, 0 0 1em #555555;
+}
+.logo {
+	float: left;
+	padding: 0;
+}
+.header-text {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#main {
+	display: block;
+}
+
+/*NAVIGATION*/
+#menu {
+	float: left;
+	max-width: 25%;/*350px*/
+	padding: 10px;
+	margin: 70px auto 0px auto;/*5% auto 0px auto;*/
+	clear: both;
+}
+ul.navigation {
+	list-style: none;
+	margin: 0 auto;
+}
+ul.navigation li {
+	font-family: Verdana, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+}
+ul.navigation li.menu-top, li.menu-mid {
+	border-bottom: 1px dashed grey;
+}
+ul.navigation a {
+	text-decoration: none;
+	color: #555555;
+}
+.navigation li a:hover {
+	background-color: lightgrey;
+	color: chocolate;
+	padding-left: 5px;
+}
+.navigation li a.activepage {
+	background-color: lightgrey;
+	color: chocolate;
+	padding-left: 5px;
+}
+/*CONTENT*/
+#content-zone {
+	float: right;
+	margin-right: 5%;
+	width: 64%; /*width: 900px;*/
+	background-color: transparent;
+}
+.content {
+	margin: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+.content h1.page-title {
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center
+}
+.content p.resume {
+	font-size: 16px;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+/*SPECIFICATIONS*/
+#content-zone h2.spec {
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#content-zone p.spec {
+	text-align: justify;
+	font-weight: bolder;
+	font-size: 14px;
+}
+#content-zone table.spec {
+	margin-right: 10%;
+	width: 800px;
+	border: 2px solid #bdbbbb;
+	border-collapse: collapse;
+	font-size: 14px;
+	font-weight: bolder;
+}
+#content-zone td {
+	width: 400px;
+	border: 1px solid #bdbbbb;
+	border-collapse: collapse;
+	text-align: center;
+	border-spacing: 1px;
+}
+.tab-title {
+	height: 1.5em;
+	font-size: 16px;
+	padding-top: 5px;
+	font-weight: bold;
+	color: #2F4F4F;
+	text-align: center;
+	border: 2px solid #bdbbbb;
+	border-collapse: collapse;
+	background-color: snow;
+	opacity: 0.8;
+}
+
+/*ABOUT*/
+.info {
+	display: block;
+}
+.info h1.contacts-header {
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center
+}
+.contacts {
+	float: right;
+	width: 83%; /*750px*/
+	height: 290px;
+	margin-right: 70px; /*7%*/
+	border: 2px solid #dbdbdb;
+	background-color: #fafafa;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	overflow: auto;
+}
+.contacts div.contacts-left {
+	display: inline-block;
+	width: 45%; /*350px*/
+	height: 265px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+.contacts-left div.addr {
+	display: inline-block;
+	width: 94%; /*330px*/
+	height: 105px;
+	margin: 5px;
+	padding: 5px;
+}
+.addr div.addr_img {
+	float: left;
+	width: 9%; /*30px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 110px;
+	text-align: center;
+}
+.addr div.addr_txt {
+	float: right;
+	width: 88%; /*290px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+.contacts-left div.email {
+	display: inline-block;
+	width: 94%; /*330px*/
+	height: 105px;
+	margin: 5px;
+	padding: 5px;
+}
+.email div.email_img {
+	float: left;
+	width: 9%; /*30px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 100px;
+	text-align: center;
+}
+.email div.email_txt {
+	float: right;
+	width: 88%; /*290px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 80px;
+	text-align: center;
+}
+.email_txt a {
+	text-decoration: none;
+	font-size: 15px;
+	color: inherit;
+}
+.email_txt a:hover {
+	text-decoration: underline;
+	font-size: 15px;
+	color: inherit;
+}
+.contacts div.contacts-right {
+	display: inline-block;
+	width: 45%; /*350px*/
+	height: 265px;
+	margin: 5px;
+	padding: 5px;
+	float: right;
+}
+.contacts-right div.work {
+	display: inline-block;
+	width: 94%; /*330px*/
+	height: 105px;
+	margin: 5px;
+	padding: 5px;
+}
+.work div.work_img {
+	float: left;
+	width: 9%; /*30px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 110px;
+	text-align: center;
+}
+.work div.work_txt {
+	float: right;
+	width: 88%; /*290px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 17px;
+	text-align: center;
+}
+.contacts-right div.phone {
+	display: inline-block;
+	width: 94%; /*330px*/
+	height: 105px;
+	margin: 5px;
+	padding: 5px;
+}
+.phone div.phone_img {
+	float: left;
+	width: 9%; /*30px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 100px;
+	text-align: center;
+}
+.phone div.phone_txt {
+	float: right;
+	width: 88%; /*290px*/
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.info div.map {
+	position: relative;
+    overflow: hidden;
+    float: right;
+	height: 450px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 14%;
+	padding: 10px;
+}

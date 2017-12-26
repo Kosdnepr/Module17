@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+	meta(charset = 'utf-8')
+	title!= title
+	body
+		h3!= currencyname + ' exchange courses'
+		table(border='1px')
+			tbody
+				tr
+					td buy
+					td sale
+				tr
+					td!= buy
+					td!= sale
